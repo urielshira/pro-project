@@ -1,0 +1,51 @@
+.four-img {
+    height: 750px;
+}
+
+.img-box {
+    height: 750px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.one {
+    width: 50%;
+    background-image: url("../img/runing.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.two {
+    width: 50%;
+    background-image: url("../img/Recipes.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.three {
+    width: 50%;
+    background-image: url("../img/strawberry.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.four {
+    width: 50%;
+    background-image: url("../img/workout.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.img-box p {
+    display: inline;
+    padding: 12px 20px;
+    background-color: white;
+    border-radius: 0 25px 0 0;
+    opacity: 0.7;
+    margin: 0;
+}
+
+.center-p {
+    display: flex;
+    align-items: flex-end;
+}

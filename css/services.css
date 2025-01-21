@@ -1,0 +1,92 @@
+.services {
+    height: 700px;
+    background-image: url("../img/weight.jpg");
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    z-index: -1;
+}
+
+#h-ser{
+    font-size: 2.5em;
+}
+
+.services h3 {
+    text-align: center;
+    padding-top: 28px;
+    color: red;
+}
+
+
+.ser-box {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.b{
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-bottom: 16px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 15px 5px #000000;
+}
+
+
+.ser-box img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+   margin: 16px 0;
+}
+
+.ser-box h3 {
+    padding: 0;
+}
+
+.ser-box p{
+    width: 300px;
+    color: blueviolet;
+    /* padding-bottom: 8px; */
+}
+
+@media (max-width: 976px){
+    .ser-box > div{
+        height: 100px;
+        width: 350px;
+    }
+
+    .ser-box img {
+        width: 30px;
+        float: left;
+    }
+}
+
+@media (min-width: 977px) and (max-width: 1296px){
+    .ser-box > div{
+        height: 200px;
+        width: 240px;
+    }
+}
+
+@media (min-width: 1297px) and (max-width: 1598px){
+    .ser-box > div{
+        height: 200px;
+        width: 300px;
+    }
+}
+
+@media (min-width: 1599px){
+    .ser-box > div{
+        height: 200px;
+        width: 400px;
+    }
+}
