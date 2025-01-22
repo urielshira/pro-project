@@ -85,10 +85,22 @@
     }
 }
 
+@media(max-width: 496px){
+    .services{
+        height: 800px;
+    }
+    .b{
+        margin-bottom: 12px;
+    }
+    #h-ser{
+        font-size: 2em;
+        }
+}
+
 @media (max-width: 976px){
     .ser-box > div{
         height: 100px;
-        width: 130px;
+        width: 180px;
     }
     .ser-box p{
         display: none;

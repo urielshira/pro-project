@@ -40,3 +40,76 @@ h3 {
 .box2 {
     width: 25%;
 }
+
+@media(max-width: 1060px){
+    .about > h3{
+        color: brown;
+        font-size: 1.4em;
+        margin-bottom: 8px;
+    }
+    .box1 {
+        margin-right: 12px;
+    }
+    
+    .box2 {
+        margin-left: 12px;
+    }
+}
+
+@media(max-width: 810px){
+    .about{
+        height: 300px;
+    }
+    .about > h3{
+        color: rgb(77, 42, 165);
+        margin-bottom: 28px;
+    }
+}
+
+@media(max-width: 690px){
+    .about{
+        height: 320px;
+    }
+    .about > h3{
+        font-size: 1.3em;
+    }
+    .box1 {
+        margin-top: 30px;
+    }
+    
+    .box2 {
+        margin-top: 16px;
+    }
+}
+
+@media(max-width: 620px){
+    .about > h3{
+        font-size: 1.2em;
+        margin-bottom: 36px;
+    }
+    .box2 {
+        display: none;
+    }
+}
+
+@media(max-width: 565px){
+    .about > h3{
+        color: red;
+        font-size: 1.1em;
+        margin-bottom: 36px;
+    }
+    .box2 {
+        display: none;
+    }
+    .box1{
+        margin: 0;
+    }
+    .about{
+        height: 390px;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
